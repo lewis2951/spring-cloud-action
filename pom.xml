@@ -9,6 +9,22 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>netflix-eureka-server</module>
+        <module>netflix-eureka-client</module>
+
+        <module>netflix-ribbon</module>
+        <module>netflix-hystrix</module>
+        <module>netflix-hystrix-dashboard</module>
+        <module>netflix-turbine</module>
+
+        <module>open-feign</module>
+        <module>netflix-eureka-client-interface</module>
+        <module>netflix-eureka-client-ext</module>
+        <module>open-feign-ext</module>
+
+        <module>netflix-zuul</module>
+        <module>config-server</module>
+        <module>config-client</module>
     </modules>
 
 </project>
