@@ -9,7 +9,6 @@ import javax.servlet.http.HttpServletResponse;
 
 public class AccessFilter extends ZuulFilter {
 
-
     @Override
     public String filterType() {
         return "pre";
@@ -39,4 +38,5 @@ public class AccessFilter extends ZuulFilter {
 
         return null;
     }
+
 }
